@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ahmad\\Desktop\\Projects\\task3\\",
+  "WorkspaceRootPath": "C:\\TFS\\training\\task3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A36E21AC-5E27-824E-ADCA-0E00BD5C010A}|task3\\task3.csproj|c:\\users\\ahmad\\desktop\\projects\\task3\\task3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE44D542-6975-414A-BA38-EFD145CD9F91}|TestProject1\\TestProject1.csproj|c:\\tfs\\training\\task3\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE44D542-6975-414A-BA38-EFD145CD9F91}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36E21AC-5E27-824E-ADCA-0E00BD5C010A}|task3\\task3.csproj|c:\\tfs\\training\\task3\\task3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A36E21AC-5E27-824E-ADCA-0E00BD5C010A}|task3\\task3.csproj|solutionrelative:task3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A36E21AC-5E27-824E-ADCA-0E00BD5C010A}|task3\\task3.csproj|c:\\users\\ahmad\\desktop\\projects\\task3\\task3\\task3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{A36E21AC-5E27-824E-ADCA-0E00BD5C010A}|task3\\task3.csproj|c:\\tfs\\training\\task3\\task3\\task3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A36E21AC-5E27-824E-ADCA-0E00BD5C010A}|task3\\task3.csproj|solutionrelative:task3\\task3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,11 +30,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\TFS\\training\\task3\\TestProject1\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject1\\UnitTest1.cs",
+              "ToolTip": "C:\\TFS\\training\\task3\\TestProject1\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject1\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T20:37:11.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "task3.csproj",
-              "DocumentMoniker": "C:\\Users\\Ahmad\\Desktop\\Projects\\task3\\task3\\task3.csproj",
+              "DocumentMoniker": "C:\\TFS\\training\\task3\\task3\\task3.csproj",
               "RelativeDocumentMoniker": "task3\\task3.csproj",
-              "ToolTip": "C:\\Users\\Ahmad\\Desktop\\Projects\\task3\\task3\\task3.csproj",
+              "ToolTip": "C:\\TFS\\training\\task3\\task3\\task3.csproj",
               "RelativeToolTip": "task3\\task3.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -38,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmad\\Desktop\\Projects\\task3\\task3\\Program.cs",
+              "DocumentMoniker": "C:\\TFS\\training\\task3\\task3\\Program.cs",
               "RelativeDocumentMoniker": "task3\\Program.cs",
-              "ToolTip": "C:\\Users\\Ahmad\\Desktop\\Projects\\task3\\task3\\Program.cs",
+              "ToolTip": "C:\\TFS\\training\\task3\\task3\\Program.cs",
               "RelativeToolTip": "task3\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T00:31:11.427Z",
               "EditorCaption": ""

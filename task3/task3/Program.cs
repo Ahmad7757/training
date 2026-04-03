@@ -8,9 +8,7 @@ namespace task3
     {
         static void Main(string[] args)
         {
-
-
-            string ex = generate(" HELLO WORLD! ");
+         string ex = generate(" HELLO WORLD! ");
             Console.WriteLine(ex);
         Console.ReadKey();
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ahmad\\Desktop\\Projects\\task3\\task3\\task3.csproj": {}
+    "C:\\TFS\\training\\task3\\task3\\task3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ahmad\\Desktop\\Projects\\task3\\task3\\task3.csproj": {
+    "C:\\TFS\\training\\task3\\task3\\task3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmad\\Desktop\\Projects\\task3\\task3\\task3.csproj",
+        "projectUniqueName": "C:\\TFS\\training\\task3\\task3\\task3.csproj",
         "projectName": "task3",
-        "projectPath": "C:\\Users\\Ahmad\\Desktop\\Projects\\task3\\task3\\task3.csproj",
+        "projectPath": "C:\\TFS\\training\\task3\\task3\\task3.csproj",
         "packagesPath": "C:\\Users\\Ahmad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmad\\Desktop\\Projects\\task3\\task3\\obj\\",
+        "outputPath": "C:\\TFS\\training\\task3\\task3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,7 +30,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -49,7 +48,6 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
