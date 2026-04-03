@@ -1,39 +1,31 @@
-﻿using System.Globalization;
-using System.Text;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
+namespace SlugGenerator
 
-namespace task3
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-         string ex = generate(" HELLO WORLD! ");
-            Console.WriteLine(ex);
-        Console.ReadKey();
+
         }
-      
-        static string generate(string text)
+    }
+    
+       public static class SlugGenerator
+    {
+        public static string Generate(string text)
         {
-         
+            if (text is null)
+                throw new ArgumentNullException("Text");
 
+            if (text.Length == 0)
+                throw new ArgumentException("text is empty");
 
-            text = Regex.Replace(text, @"[^\p{L}\d\s-_]", "").Trim().ToLower();      
-           
-            text = Regex.Replace(text, @"[\s_-]+", "-");
+            text = Regex.Replace(text, @"[^\p{L}\d\s-_]", "").ToLower().Trim();
 
-           
-            return text;
+            if (text.Length == 0)
+                throw new ArgumentException("text contain only symbols");
+
+            text = Regex.Replace(text, @"[\s_-]+", "-"); return text;
         }
-        
-
-        static string Reverse(string text)
-        {
-            char[] array = text.ToCharArray();
-            Array.Reverse(array);
-            return new String(array);
-        }
-
-
     }
 }

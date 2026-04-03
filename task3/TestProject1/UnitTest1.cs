@@ -1,6 +1,6 @@
 ﻿namespace SlugGenerator.Tests
 {
-    public class SlugGeneratorTests
+    public class UnitTest1
     {
         [Fact]
         public void Generate_TextIsNull_ThrowArgumentNullException()
